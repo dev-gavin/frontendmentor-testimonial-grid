@@ -2,7 +2,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 *,
@@ -14,4 +14,48 @@ html {
 img,
 button {
   display: block;
+}
+
+.card-container {
+  display: grid;
+  gap: 10px;
+  padding: 3rem 1.5rem;
+}
+
+.card {
+  padding: 2rem 1.5rem;
+  border-radius: 15px;
+}
+
+.card__owner {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.card__owner-image {
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+}
+
+.card__owner-position {
+  margin-top: 0.4rem;
+  color: hsla(0, 100%, 100%, 50%);
+}
+
+.card__quote {
+  margin: 1.5rem 0;
+  font-size: 20px;
+  line-height: 1.5rem;
+}
+
+.purple {
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 100%, 100%);
+}
+
+.card__review {
+  color: hsla(0, 100%, 100%, 50%);
+  line-height: 1.5rem;
 }
