@@ -1,0 +1,17 @@
+@import "./reset.css";
+
+html {
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img,
+button {
+  display: block;
+}
